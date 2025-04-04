@@ -69,12 +69,6 @@ export function Products() {
       <div className="p-6 bg-white rounded-lg shadow-md">
         <div className="flex items-center justify-between mb-6">
           <h2 className="text-2xl font-bold text-gray-800">Products</h2>
-          <button
-            onClick={() => setIsFormOpen(true)}
-            className="px-4 py-2 text-white transition-colors duration-200 rounded-lg bg-gradient-to-r from-teal-600 to-teal-700 hover:from-teal-700 hover:to-teal-800"
-          >
-            Add Product
-          </button>
         </div>
         <ProductTable
           products={products}
